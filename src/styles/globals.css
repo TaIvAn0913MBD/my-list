@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +104,108 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+* {
+  font-family: fantasy;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  height: 100vh;
+  background-color: black;
+}
+.pic {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border: 1px white solid;
+}
+.pic1 {
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  border: 2.5px orange solid;
+}
+.Imya {
+  color: white;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  border: orange 2px solid;
+  width: 350px;
+  padding: 10px;
+  align-items: center;
+}
+.jobs {
+  color: grey;
+}
+.outer {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min-content;
+  border: 3px solid red;
+}
+.search {
+  width: 95%;
+  outline: black solid 2px;
+  border-radius: 12px;
+  height: 30px;
+  border: red 1px solid;
+}
+.gaduur {
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.home {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 35px;
+  border: 2px gainsboro solid;
+}
+.white {
+  color: white;
+  font-size: 30px;
+  width: 98%;
+}
+.orange {
+  color: black;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  width: 97;
+  border: 2px greenyellow solid;
+  padding: 10px;
+}
+.outOf {
+  border: 1px greenyellow solid;
+  padding: 5px;
+  margin: 5px;
+}
+.TheContent {
+  border: 2px greenyellow solid;
+  padding: 5px;
+  display: flex;
+  background-color: Orange;
+  flex-direction: column;
+  gap: 50px;
+}
+.TheOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
